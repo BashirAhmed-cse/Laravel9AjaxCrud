@@ -7,6 +7,7 @@
     <title>Laravel 9 Ajax Crud</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
   </head>
   <body>
     <div class="container">
@@ -59,5 +60,6 @@
    @include('product_js')
    @include('add_product_modal')
    @include('update_product_modal')
+   {!! Toastr::message() !!}
 </body>
 </html>
