@@ -14,8 +14,9 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <h1 class="my-5 text-center">Laravel 9 Ajax Crud</h1>
+                <h2 class="my-5 text-center">Laravel 9 Ajax Crud</h2>
                 <a class="btn btn-success my-3" data-bs-toggle="modal" data-bs-target="#addProductModal">Add Product</a>
+                <input type="text" name="search" id="search" class="mb-3 form-control" placeholder="Search Here ....">
                 <div class="table-data">
                     <table class="table table-bordered">
                         <thead>
